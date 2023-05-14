@@ -72,6 +72,7 @@
             this.stoToolStripMenuItem.Name = "stoToolStripMenuItem";
             this.stoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.stoToolStripMenuItem.Text = "Sto";
+            this.stoToolStripMenuItem.Click += new System.EventHandler(this.stoToolStripMenuItem_Click);
             // 
             // plataToolStripMenuItem
             // 

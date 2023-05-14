@@ -51,7 +51,7 @@ namespace Bilijar_klub
         {
             try
             {
-                if (MessageBox.Show("Da li ste sigurni da zelite da izmenite ove podatke?", "Skolska biblioteka", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (MessageBox.Show("Da li ste sigurni da zelite da izmenite ove podatke?", "Bilijar klub", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     if (textBox2.Text == "" || textBox3.Text == "" || textBox4.Text == "")
                     {
@@ -80,7 +80,7 @@ namespace Bilijar_klub
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Podatak vec postoji u tabeli - " + ex.Source + " - " + ex.Message, "Greska", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Podatak vec postoji u tabeli - " + ex.Source, "Greska", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 SqlConnection con = new SqlConnection(Konekcija.Veza());
                 con.Close();
                 Osvezi();

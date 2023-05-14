@@ -22,5 +22,11 @@ namespace Bilijar_klub
             Cenovnik cenovnik = new Cenovnik();
             cenovnik.ShowDialog();
         }
+
+        private void stoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Sto sto = new Sto();
+            sto.ShowDialog();
+        }
     }
 }
