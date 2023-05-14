@@ -33,8 +33,8 @@
             this.cenovnikToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.plataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zaposleniToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rezervacijaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zaposleniToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,7 +42,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sifarniciToolStripMenuItem,
-            this.rezervacijaToolStripMenuItem});
+            this.rezervacijaToolStripMenuItem,
+            this.zaposleniToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -54,8 +55,7 @@
             this.sifarniciToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cenovnikToolStripMenuItem,
             this.stoToolStripMenuItem,
-            this.plataToolStripMenuItem,
-            this.zaposleniToolStripMenuItem});
+            this.plataToolStripMenuItem});
             this.sifarniciToolStripMenuItem.Name = "sifarniciToolStripMenuItem";
             this.sifarniciToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.sifarniciToolStripMenuItem.Text = "Sifarnici";
@@ -81,17 +81,18 @@
             this.plataToolStripMenuItem.Text = "Plata";
             this.plataToolStripMenuItem.Click += new System.EventHandler(this.plataToolStripMenuItem_Click);
             // 
-            // zaposleniToolStripMenuItem
-            // 
-            this.zaposleniToolStripMenuItem.Name = "zaposleniToolStripMenuItem";
-            this.zaposleniToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.zaposleniToolStripMenuItem.Text = "Zaposleni";
-            // 
             // rezervacijaToolStripMenuItem
             // 
             this.rezervacijaToolStripMenuItem.Name = "rezervacijaToolStripMenuItem";
             this.rezervacijaToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
             this.rezervacijaToolStripMenuItem.Text = "Rezervacija";
+            // 
+            // zaposleniToolStripMenuItem
+            // 
+            this.zaposleniToolStripMenuItem.Name = "zaposleniToolStripMenuItem";
+            this.zaposleniToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
+            this.zaposleniToolStripMenuItem.Text = "Zaposleni";
+            this.zaposleniToolStripMenuItem.Click += new System.EventHandler(this.zaposleniToolStripMenuItem_Click_1);
             // 
             // Pocetna_stranica
             // 
@@ -116,7 +117,7 @@
         private System.Windows.Forms.ToolStripMenuItem cenovnikToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem stoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem plataToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem zaposleniToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem rezervacijaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem zaposleniToolStripMenuItem;
     }
 }

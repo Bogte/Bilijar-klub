@@ -34,5 +34,11 @@ namespace Bilijar_klub
             Plata plata = new Plata();
             plata.ShowDialog();
         }
+
+        private void zaposleniToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            Zaposleni zaposleni = new Zaposleni();
+            zaposleni.ShowDialog();
+        }
     }
 }
