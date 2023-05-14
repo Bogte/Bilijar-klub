@@ -40,5 +40,11 @@ namespace Bilijar_klub
             Zaposleni zaposleni = new Zaposleni();
             zaposleni.ShowDialog();
         }
+
+        private void rezervacijaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Usluga usluga = new Usluga();
+            usluga.ShowDialog();
+        }
     }
 }

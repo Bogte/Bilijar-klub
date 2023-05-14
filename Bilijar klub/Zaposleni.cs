@@ -24,7 +24,7 @@ namespace Bilijar_klub
 
         private void Zaposleni_Load(object sender, EventArgs e)
         {
-            podaci = new DataTable();//Dodavanje zaposlenih
+            podaci = new DataTable();//Dodavanje Uloga
             podaci = Konekcija.Unos("SELECT DISTINCT Uloga AS 'Z' FROM Plata");
             string[] pomocna = new string[podaci.Rows.Count];
             for (int i = 0; i < podaci.Rows.Count; i++)

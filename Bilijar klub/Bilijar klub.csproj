@@ -80,6 +80,12 @@
     <Compile Include="Sto.Designer.cs">
       <DependentUpon>Sto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Usluga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usluga.Designer.cs">
+      <DependentUpon>Usluga.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zaposleni.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     </Compile>
     <EmbeddedResource Include="Sto.resx">
       <DependentUpon>Sto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usluga.resx">
+      <DependentUpon>Usluga.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Zaposleni.resx">
       <DependentUpon>Zaposleni.cs</DependentUpon>
