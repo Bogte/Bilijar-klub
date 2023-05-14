@@ -28,5 +28,11 @@ namespace Bilijar_klub
             Sto sto = new Sto();
             sto.ShowDialog();
         }
+
+        private void plataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Plata plata = new Plata();
+            plata.ShowDialog();
+        }
     }
 }

@@ -79,6 +79,7 @@
             this.plataToolStripMenuItem.Name = "plataToolStripMenuItem";
             this.plataToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.plataToolStripMenuItem.Text = "Plata";
+            this.plataToolStripMenuItem.Click += new System.EventHandler(this.plataToolStripMenuItem_Click);
             // 
             // zaposleniToolStripMenuItem
             // 
